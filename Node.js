@@ -1,4 +1,4 @@
-```const hubspot = require('@hubspot/api-client');
+const hubspot = require('@hubspot/api-client');
 
 exports.main = async (event, callback) => {
 
