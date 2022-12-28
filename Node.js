@@ -1,5 +1,6 @@
 const hubspot = require('@hubspot/api-client');
-
+//Created 12/28/2022 by Nathan De Long @ HubSpot. 
+//Code is provided as-is, please test before using in a live environment!
 exports.main = async (event, callback) => {
 
   const hubspotClient = new hubspot.Client({
